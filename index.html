@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="mt-14 mb-14">
+        <div class="navbar bg-rose-500 rounded-3xl px-10 h-24">
+                <div class="hidden sm:flex gap-7 text-white text-lg ">
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Shop</p>
+                    <p>All Fruits</p>
+                </div>
+            <div class="flex-1 items-start items-center lg:justify-center gap-2">
+                <img src="images/logo.png" alt="">
+                <h1 class="text-4xl text-white">Fruit Burst</h1>
+            </div>
+                <div class="hidden sm:block form-control">
+                    <input type="text" placeholder="Search here" class="input input-bordered w-12 rounded-3xl md:w-auto bg-white" />
+                </div>
+                <div class="lg:hidden md:hidden">
+                    <div class="dropdown dropdown-end">
+                        <button class="btn btn-square btn-ghost">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                class="inline-block w-5 h-5 stroke-current">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                    <ul tabindex="0"
+                        class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content text-white text-lg bg-rose-300  rounded-box w-64">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                        <div class="form-control">
+                            <input type="text" placeholder="Search here" class="input input-bordered rounded-3xl md:w-auto bg-white" />
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
